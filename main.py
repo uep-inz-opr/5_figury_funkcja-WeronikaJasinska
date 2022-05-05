@@ -23,7 +23,7 @@ def figures():
 
 
   measurements_array_float = [float(x) for x in measurements_array]
-  total = round((sum(measurements_array_float)),1)
+  total = round((sum(measurements_array_float)),2)
 
   print(total)
 
