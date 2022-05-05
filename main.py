@@ -19,6 +19,7 @@ def figures():
       measurements_array.append(triangle)
     if len(fig_properties_arr)>=4:
       print("Błąd: można podać maksymalnie 3 liczby")
+      return None
 
 
 
