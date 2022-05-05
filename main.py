@@ -25,8 +25,9 @@ def figures():
 
   measurements_array_float = [float(x) for x in measurements_array]
   total = round((sum(measurements_array_float)),2)
+  total_decimal = "{:.2f}".format(total)
 
-  print(total)
+  print(total_decimal)
 
 
 figures()
